@@ -60,9 +60,6 @@
     <ClInclude Include="gl_resources.h">
       <Filter>Util</Filter>
     </ClInclude>
-    <ClInclude Include="gl_manager.h">
-      <Filter>Util</Filter>
-    </ClInclude>
     <ClInclude Include="gl_renderstate.h">
       <Filter>Util</Filter>
     </ClInclude>
@@ -99,9 +96,6 @@
     <ClInclude Include="official\khrplatform.h">
       <Filter>ARB Headers</Filter>
     </ClInclude>
-    <ClInclude Include="gl_initstate.h">
-      <Filter>Util</Filter>
-    </ClInclude>
     <ClInclude Include="gl_dispatch_table.h">
       <Filter>Core</Filter>
     </ClInclude>
@@ -128,119 +122,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="wrappers\gl_buffer_funcs.cpp">
-      <Filter>Function Wrappers</Filter>
-    </ClCompile>
-    <ClCompile Include="wrappers\gl_debug_funcs.cpp">
-      <Filter>Function Wrappers</Filter>
-    </ClCompile>
-    <ClCompile Include="wrappers\gl_draw_funcs.cpp">
-      <Filter>Function Wrappers</Filter>
-    </ClCompile>
-    <ClCompile Include="wrappers\gl_emulated.cpp">
-      <Filter>Function Wrappers</Filter>
-    </ClCompile>
-    <ClCompile Include="wrappers\gl_framebuffer_funcs.cpp">
-      <Filter>Function Wrappers</Filter>
-    </ClCompile>
-    <ClCompile Include="wrappers\gl_get_funcs.cpp">
-      <Filter>Function Wrappers</Filter>
-    </ClCompile>
-    <ClCompile Include="wrappers\gl_query_funcs.cpp">
-      <Filter>Function Wrappers</Filter>
-    </ClCompile>
-    <ClCompile Include="wrappers\gl_sampler_funcs.cpp">
-      <Filter>Function Wrappers</Filter>
-    </ClCompile>
-    <ClCompile Include="wrappers\gl_shader_funcs.cpp">
-      <Filter>Function Wrappers</Filter>
-    </ClCompile>
-    <ClCompile Include="wrappers\gl_state_funcs.cpp">
-      <Filter>Function Wrappers</Filter>
-    </ClCompile>
-    <ClCompile Include="wrappers\gl_texture_funcs.cpp">
-      <Filter>Function Wrappers</Filter>
-    </ClCompile>
-    <ClCompile Include="wrappers\gl_uniform_funcs.cpp">
-      <Filter>Function Wrappers</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_shader_refl.cpp">
-      <Filter>GLSL</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_driver.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_manager.cpp">
-      <Filter>Util</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_renderstate.cpp">
-      <Filter>Util</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_resources.cpp">
-      <Filter>Util</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_common.cpp">
-      <Filter>Util</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_debug.cpp">
-      <Filter>Replay</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_counters.cpp">
-      <Filter>Replay</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_replay.cpp">
-      <Filter>Replay</Filter>
-    </ClCompile>
-    <ClCompile Include="wrappers\gl_interop_funcs.cpp">
-      <Filter>Function Wrappers</Filter>
-    </ClCompile>
-    <ClCompile Include="precompiled.cpp">
-      <Filter>PCH</Filter>
-    </ClCompile>
     <ClCompile Include="gl_initstate.cpp">
       <Filter>Util</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_initstate.cpp">
-      <Filter>Util</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_stringise.cpp">
-      <Filter>Util</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_program_iterate.cpp">
-      <Filter>GLSL</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_postvs.cpp">
-      <Filter>Replay</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_overlay.cpp">
-      <Filter>Replay</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_outputwindow.cpp">
-      <Filter>Replay</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_rendermesh.cpp">
-      <Filter>Replay</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_msaa_array_conv.cpp">
-      <Filter>Replay</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_rendertexture.cpp">
-      <Filter>Replay</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_rendertext.cpp">
-      <Filter>Util</Filter>
-    </ClCompile>
-    <ClCompile Include="egl_hooks.cpp">
-      <Filter>Hooks</Filter>
-    </ClCompile>
-    <ClCompile Include="egl_platform.cpp">
-      <Filter>EGL</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_hooks.cpp">
-      <Filter>Hooks</Filter>
-    </ClCompile>
-    <ClCompile Include="wgl_platform.cpp">
-      <Filter>Platform Interfaces\Win32</Filter>
     </ClCompile>
     <ClCompile Include="cgl_platform.cpp">
       <Filter>Platform Interfaces\Apple</Filter>
@@ -251,17 +134,11 @@
     <ClCompile Include="glx_platform.cpp">
       <Filter>Platform Interfaces\Linux</Filter>
     </ClCompile>
-    <ClCompile Include="wgl_hooks.cpp">
-      <Filter>Platform Interfaces\Win32</Filter>
-    </ClCompile>
     <ClCompile Include="glx_hooks.cpp">
       <Filter>Platform Interfaces\Linux</Filter>
     </ClCompile>
     <ClCompile Include="glx_fake_vk_hooks.cpp">
       <Filter>Platform Interfaces\Linux</Filter>
-    </ClCompile>
-    <ClCompile Include="gl_pixelhistory.cpp">
-      <Filter>Replay</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

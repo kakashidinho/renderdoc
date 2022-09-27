@@ -97,7 +97,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="intel_counters.cpp" />
-    <ClCompile Include="intel_gl_counters.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="intel_counters.h" />
